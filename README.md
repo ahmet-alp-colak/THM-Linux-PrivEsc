@@ -40,7 +40,7 @@ base64 /etc/passwd | base64 -d
 ```
 ![Passwd credantials](./Images/passwd_creds_5.png)
 
-# Phase 4: Cracking
+## Phase 4: Cracking
 And again copy the Missy's value into the passwd.txt file.
 Now use unshadow in your machine for the combine this 2 file and use John the Ripper to crack Missy's password:
 ```bash
@@ -63,7 +63,7 @@ sudo find / -name "flag1.txt"
 ```
 ![Capturing the first flag](./Images/capture_flag1_8.png)
 
-# Phase 5: Flag2
+## Phase 5: Flag2
 
 Now let's head to the flag2, for this let's use previous command again. As you can see below if we try to capture the flag2.txt it will say Permission denied.
 ![Permisson error](./Images/permission_9.png)
